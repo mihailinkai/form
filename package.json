@@ -1,0 +1,23 @@
+{
+  "name": "form",
+  "version": "0.0.1",
+  "author": "mihailinkai",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env PORT=3001 node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.18"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
